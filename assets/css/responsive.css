@@ -1,0 +1,414 @@
+@media only screen and (max-width: 768px) {
+  .ak-mobile {
+    display: block !important;
+    overflow: hidden;
+  }
+  .sm-hide {
+    display: none !important;
+  }
+  .sm-show {
+    display: block !important;
+  }
+  .ak-view {
+    display: none;
+  }
+  .navigation {
+    display: none;
+  }
+  header {
+    padding: 12px 10px;
+  }
+  header > div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .join-links {
+    display: none;
+  }
+  .nav-menu {
+    max-width: initial;
+  }
+  .sm-frame {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  .sm-frame .sf-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .sm-frame .sm-frame-text {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+  }
+  .sm-frame .sm-frame-text h2 {
+    font-family: cinzel_bold;
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+  .sm-frame .sm-frame-text p {
+    font-family: flanker;
+    font-size: 16px;
+    max-width: 86%;
+    margin: 0 auto;
+    line-height: 2;
+  }
+  .sm-frame .frame-end {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: auto;
+    object-fit: cover;
+    z-index: 20;
+  }
+  .sm-frame .fe--1 {
+    bottom: -29px;
+  }
+  .sm-frame .fe--2 {
+    bottom: -85px;
+    -o-object-fit: none;
+       object-fit: none;
+    scale: 1.1;
+  }
+  .sm-frame .fe--3 {
+    bottom: -50px;
+  }
+  .sm-frame .fe--4 {
+    bottom: -17px;
+  }
+  .sm-frame .fe--5 {
+    bottom: -80px;
+    height: 152px;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  .sm-frame--01 .logo-text-sm {
+    position: absolute;
+    max-width: 315px;
+    z-index: 1;
+    left: 50%;
+    top: 72px;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .sm-frame--01 .sm-f1-space-ship {
+    position: absolute;
+    top: 33%;
+    left: 0%;
+  }
+  .sm-frame--02 .sft-02 {
+    color: #4B3944;
+    top: 18%;
+  }
+  .sm-frame--03 .sft-03, .sm-frame--04 .sft-03 {
+    color: #ffffff;
+    top: 17%;
+  }
+  .sm-frame--05 .sf-img-05 {
+    -o-object-position: top;
+       object-position: top;
+  }
+  .sm-frame--05 .sft-05 {
+    top: 4%;
+    color: #ffffff;
+  }
+  .sm-frame--05 .sft-05 p {
+    max-width: 87%;
+  }
+  .sm-frame--06 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    background: #000;
+  }
+  .sm-frame--06 video {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .sm-frame--06 .vp-view {
+    position: absolute;
+    z-index: 1;
+    top: 24%;
+    left: 50%;
+    width: 75%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .sm-frame--06 .vp-view h4 {
+    font-family: cinzel_bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .sm-frame--06 .vp-view button {
+    max-width: 300px;
+    margin: 0 auto;
+    background: transparent;
+    border: none;
+  }
+  .sm-frame--06 .vp-view button img {
+    width: 100%;
+  }
+  .sm-frame--07 {
+    min-height: 845px;
+  }
+  .sm-frame--07 .sm-f7-bottom {
+    position: absolute;
+    bottom: -62px;
+    width: 100%;
+  }
+  .sm-frame--07 .sm-f7-top {
+    position: absolute;
+    top: -52px;
+    width: 103%;
+    left: -6px;
+  }
+  .mobile-footer {
+    position: relative;
+    height: 100vh;
+    min-height: 920px;
+  }
+  .mobile-footer img {
+    width: 100%;
+    display: block;
+  }
+  .mobile-footer .foot-top {
+    position: absolute;
+    top: -50px;
+    z-index: 20;
+  }
+  .mobile-footer .footer-opt {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .mobile-footer .footer-opt img {
+    position: relative;
+  }
+  .sm-f1-space-ship {
+    -webkit-animation: shipHover 2s infinite alternate forwards;
+            animation: shipHover 2s infinite alternate forwards;
+    width: 48%;
+  }
+  @-webkit-keyframes shipHover {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-15px);
+              transform: translateY(-15px);
+    }
+  }
+  @keyframes shipHover {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-15px);
+              transform: translateY(-15px);
+    }
+  }
+  footer {
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  footer > ul {
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer > ul ul {
+    padding: 0;
+  }
+  footer > ul li img {
+    height: 37px;
+  }
+  .foot-sm-fade-in {
+    visibility: visible !important;
+    opacity: 1 !important;
+    -webkit-transform: translateY(0) !important;
+            transform: translateY(0) !important;
+    pointer-events: initial;
+  }
+  #audio_mute {
+    bottom: 30px;
+    left: 30px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .navigation ul li a {
+    pointer-events: none;
+  }
+}
+
+.sf-img-05-1 {
+  -webkit-animation: floatBaloons_2 28s infinite;
+          animation: floatBaloons_2 28s infinite;
+}
+
+.sf-img-05-2 {
+  -webkit-animation: floatBaloons 18s infinite;
+          animation: floatBaloons 18s infinite;
+}
+
+.sf-img-05-3 {
+  -webkit-animation: floatBaloons_2 15s infinite;
+          animation: floatBaloons_2 15s infinite;
+}
+
+.f6_info_view {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 55px 20px;
+  gap: 10px;
+}
+
+.f6_if_box.d-none {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  opacity: 0;
+}
+
+.f6_if_box {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+  background: #fcd59de6;
+  border: 1px solid #250f11;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.f6_if_box h2 {
+  font-family: cinzel_bold;
+  color: #503f2e;
+}
+
+.f6_if_box p {
+  font-family: flanker;
+}
+
+.mb_video_thumnail {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#sm_f7_btn_ritual {
+  position: absolute;
+  bottom: 9%;
+  width: 48%;
+  display: block;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: transparent;
+  border: none;
+  scale: 1;
+}
+
+#sm_f7_btn_ritual:active {
+  scale: 0.93;
+}
+
+.sm-f7-glow-prg {
+  width: 57%;
+  margin: 0 auto;
+  height: 0;
+  background: #e7ff515e;
+  -webkit-filter: blur(42px);
+          filter: blur(42px);
+  position: absolute;
+  bottom: 0;
+  display: block;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: height 5s ease;
+  transition: height 5s ease;
+}
+
+.sm-f7-glow-prg.sm-ritual-started {
+  height: 412px;
+}
+
+.mobile-footer .foot-links {
+  padding: 0 20px;
+}
+
+.mobile-footer ul {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.mobile-footer ul li {
+  list-style: none;
+}
+
+.mobile-footer ul li a {
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+  font-family: flanker;
+  color: #383976;
+}
+/*# sourceMappingURL=responsive.css.map */
